@@ -1,19 +1,19 @@
 {
-  "main.css": "/static/css/main.775fc8ec.chunk.css",
-  "main.js": "/static/js/main.488bd093.chunk.js",
-  "main.js.map": "/static/js/main.488bd093.chunk.js.map",
+  "main.css": "/static/css/main.fc38a8ff.chunk.css",
+  "main.js": "/static/js/main.0b496cb5.chunk.js",
+  "main.js.map": "/static/js/main.0b496cb5.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
   "static/js/2.01084e35.chunk.js": "/static/js/2.01084e35.chunk.js",
   "static/js/2.01084e35.chunk.js.map": "/static/js/2.01084e35.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.da9dca650d02ebeaf4a5a263dd36d044.js": "/precache-manifest.da9dca650d02ebeaf4a5a263dd36d044.js",
+  "precache-manifest.4ed8f1b5663cb227279135ae380d2048.js": "/precache-manifest.4ed8f1b5663cb227279135ae380d2048.js",
   "service-worker.js": "/service-worker.js",
-  "static/css/main.775fc8ec.chunk.css.map": "/static/css/main.775fc8ec.chunk.css.map",
+  "static/css/main.fc38a8ff.chunk.css.map": "/static/css/main.fc38a8ff.chunk.css.map",
   "static/media/styles.css": "/static/media/floral-bg.232e31a3.png",
-  "static/media/bergen-map.png": "/static/media/bergen-map.145d92b1.png",
-  "static/media/bergen-photo.jpg": "/static/media/bergen-photo.8a4a6d72.jpg",
-  "static/media/main.jpg": "/static/media/main.ef122f8f.jpg",
+  "static/media/bergen-map.jpg": "/static/media/bergen-map.9e397df7.jpg",
+  "static/media/bergen-photo.jpg": "/static/media/bergen-photo.83ddba11.jpg",
+  "static/media/main.jpg": "/static/media/main.2e1c532a.jpg",
   "static/media/pin.png": "/static/media/pin.c7fd5c48.png",
-  "static/media/øvre-eide-farm.jpg": "/static/media/øvre-eide-farm.80657a76.jpg"
+  "static/media/øvre-eide-farm.jpg": "/static/media/øvre-eide-farm.1b826a17.jpg"
 }
