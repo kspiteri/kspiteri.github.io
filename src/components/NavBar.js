@@ -6,7 +6,9 @@ function NavBar() {
     return (
         <section className="navigation">
             <header>
-                <Logo light />
+                <ScrollToElement id="top">
+                    <Logo light />
+                </ScrollToElement>
                 <nav className="header-nav">
                     <ul className="primary-nav">
                         {/*<li><ScrollToElement id="invitation">12.08.2023</ScrollToElement></li>*/}
@@ -17,9 +19,6 @@ function NavBar() {
                         {/*<li><ScrollToElement id="rsvp" className="btn-white btn-small">RSVP</ScrollToElement></li>*/}
                     </ul>
                 </nav>
-                {/*<div className="nav-icon">
-                    <a className="nav-toggle" href="#"><span></span></a>
-                </div>*/}
             </header>
         </section>
     );
