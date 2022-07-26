@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import MainBanner from '../assets/hero/main.jpg';
-import BergenMap from '../assets/bergen-map.png';
+import BergenMap from '../assets/bergen-map.jpg';
 import BergenPhoto from '../assets/bergen-photo.jpg';
 import OvreEidePhoto from '../assets/øvre-eide-farm.jpg';
 import Map from "./Map";
