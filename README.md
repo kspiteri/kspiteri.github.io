@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Becca u Keith - wedding website
+
+This site was created with the Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

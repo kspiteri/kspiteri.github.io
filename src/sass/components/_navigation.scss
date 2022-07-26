@@ -1,0 +1,100 @@
+.navigation {
+  transition: all 300ms ease-in-out;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  padding: 15px;
+  margin: 0 auto;
+  background: $nav-bg;
+  max-width: 1170px;
+
+  .scroll-to {
+    color: $txt-light;
+    text-transform: uppercase;
+    font-size: $nav-font-size;
+  }
+
+  .header-nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      li {
+        display: inline;
+        .scroll-to {
+          color: $txt-light;
+          padding: 8px 0 8px 8px;
+          margin: 0 0 0 24px;
+          &:hover { color: $accent-color }
+          @media (max-width: 560px) {
+            margin: 0;
+          }
+        }
+      }
+
+      &.primary-nav { margin: 0 0 0 50px }
+      &.member-actions { }
+    }
+  }
+}
+
+.nav-toggle {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  z-index: 999999;
+  padding: 10px 35px 16px 0;
+  cursor: pointer;
+
+  &:focus { outline: none }
+
+  span, span:before, span:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 35px;
+    height: 3px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    background: #fff;
+    cursor: pointer
+  }
+  span, span:before, span:after {
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out
+  }
+
+  span:before { top: -10px }
+  span:after { bottom: -10px }
+
+  &.active {
+    span { background-color: transparent }
+    span:before, span:after { top: 0 }
+    span:before {
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg)
+    }
+    span:after {
+      top: 10px;
+      -ms-transform: translatey(-10px) rotate(-45deg);
+      transform: translatey(-10px) rotate(-45deg)
+    }
+  }
+}
+.nav-icon {
+  visibility: hidden;
+  transition: all 300ms ease-in-out;
+}
