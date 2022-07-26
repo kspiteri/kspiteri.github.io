@@ -1,0 +1,48 @@
+.personal-code {
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  background-color: $white-color;
+  border-radius: 10px;
+  padding: 10px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: $txt-primary;
+
+  .logo-wrapper { font-size: $font-size-h1; }
+
+  .input {
+    font-family: $sans-serif;
+    font-weight: $light;
+    font-size: $font-size-sub;
+    padding: 10px;
+    border: 1px solid $body;
+    border-radius: 10px;
+    text-align: center;
+    flex-grow: 1;
+  }
+
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+  }
+
+  &-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background: url("../assets/hero/auth.jpg") top;
+    background-size: cover;
+    filter: blur(10px);
+  }
+}
