@@ -153,8 +153,7 @@ h5 {
 .hero .invite-text {
   margin: 0 auto;
   max-width: 500px;
-  background: rgba(255, 255, 255, 0.8117647059) url("../assets/floral-bg-alt.webp");
-  background-repeat-y: no-repeat;
+  background: rgba(255, 255, 255, 0.8117647059) url("../assets/floral-bg-alt.webp") repeat-x;
   background-size: 100px;
   padding: 50px 50px 30px;
   border-radius: 120px 120px 10px 10px;
@@ -218,14 +217,13 @@ main {
 .section-padding {
   padding: 120px 0 10px;
   color: #1C3653;
-  background: #ffffff url("../assets/floral-bg.webp");
-  background-repeat-y: no-repeat;
+  background: #ffffff url("../assets/floral-bg.webp") repeat-x;
   background-size: 120px;
 }
 .section-padding.dark {
-  background-color: #313021;
-  background-image: url("../assets/floral-bg-light.webp");
   color: #a1a1a1;
+  background: #313021 url("../assets/floral-bg-light.webp") repeat-x;
+  background-size: 120px;
 }
 .section-padding.no-bottom-padding {
   padding-bottom: 0;
