@@ -7,7 +7,7 @@
 	.invite-text {
 		margin: 0 auto;
 		max-width: 500px;
-		background: $section-light-trans url("../assets/floral-bg-alt.png");
+		background: $section-light-trans url("../assets/floral-bg-alt.webp");
 		background-repeat-y: no-repeat;
 		background-size: 100px;
 		padding: 50px 50px 30px;
@@ -69,13 +69,13 @@ main {
 .section-padding {
 	padding: $section-padding;
 	color: $txt-primary;
-	background: $section-light url("../assets/floral-bg.png");
+	background: $section-light url("../assets/floral-bg.webp");
 	background-repeat-y: no-repeat;
 	background-size: 120px;
 
 	&.dark {
 		background-color: $section-dark;
-		background-image: url("../assets/floral-bg-light.png");;
+		background-image: url("../assets/floral-bg-light.webp");;
 		color: $txt-secondary;
 	}
 

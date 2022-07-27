@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import MainBanner from '../assets/hero/main.jpg';
-import BergenMap from '../assets/bergen-map.jpg';
-import BergenPhoto from '../assets/bergen-photo.jpg';
-import OvreEidePhoto from '../assets/øvre-eide-farm.jpg';
+import MainBanner from '../assets/hero/main.webp';
+import BergenMap from '../assets/bergen-map.webp';
+import BergenPhoto from '../assets/bergen-photo.webp';
+import OvreEidePhoto from '../assets/øvre-eide-farm.webp';
 import Map from "./Map";
 
 export const Banner = () => {
