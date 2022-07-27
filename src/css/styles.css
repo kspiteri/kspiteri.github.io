@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
-@import url(https://fonts.googleapis.com/css2?family=Satisfy&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Open+Sans:wght@300;400;600;700;800&family=Satisfy&display=swap);
 /* ==========================================================================
 Typography
 ========================================================================== */
@@ -44,7 +42,7 @@ sub {
 h2 {
   font-size: 40px;
   font-weight: 300;
-  color: #3D4351;
+  color: inherit;
   font-family: Merriweather, Georgia, "Times New Roman", serif;
 }
 
@@ -65,7 +63,7 @@ h4 {
 
 h5 {
   font-size: 15px;
-  color: #3D4351;
+  color: inherit;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -322,63 +320,6 @@ hr {
   text-decoration: none;
 }
 
-/* ==========================================================================
-Animations
-========================================================================== */
-.pulse2 {
-  animation-name: pulse2;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes pulse2 {
-  0% {
-    transform: scale(1.1);
-  }
-  50% {
-    transform: scale(0.8);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-.floating-arrow {
-  animation-name: floating-arrow;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes floating-arrow {
-  from {
-    transform: translate(-50%, 0);
-  }
-  65% {
-    transform: translate(-50%, 15px);
-  }
-  to {
-    transform: translate(-50%, 0);
-  }
-}
-.floating-logo {
-  animation-name: floating-logo;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes floating-logo {
-  from {
-    transform: translate(-50%, 0);
-  }
-  50% {
-    transform: translate(-50%, 10px);
-  }
-  to {
-    transform: translate(-50%, 0);
-  }
-}
 .navigation {
   transition: all 300ms ease-in-out;
   position: sticky;
@@ -416,6 +357,7 @@ header .header-nav ul li .scroll-to {
   text-transform: uppercase;
   padding: 8px 0 8px 8px;
   margin: 0 0 0 24px;
+  user-select: none;
 }
 header .header-nav ul li .scroll-to:hover {
   color: #e3af0b;

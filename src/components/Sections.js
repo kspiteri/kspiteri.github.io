@@ -24,7 +24,8 @@ export const WhatToDo = () => {
     return (
         <section id="bergen" className="section-padding dark">
             <div className="about-bergen text-center">
-                <h3>Bergen, The City of Seven Mountains</h3>
+                <h2>While in Bergen</h2>
+                <h3>The City of Seven Mountains</h3>
                 <Image src={BergenPhoto} className="bergen-photo" alt="Bergen" />
                 <p>We have put together an <a href={mapUrl}>interactive map</a> to the city's main attractions, daily needs, emergency services and other amenities.</p>
                 <p>Click on the tabs to view place marks.</p>
@@ -33,7 +34,7 @@ export const WhatToDo = () => {
                 </a>
             </div>
             <div className="about-norway text-center">
-                <h4>Norway</h4>
+                <h3>Norway</h3>
                 <p>Text goes here</p>
             </div>
         </section>
@@ -56,6 +57,11 @@ export const Details = () => {
 
     return (
         <section id="details" className="section-padding">
+            <div className="about-wedding text-center">
+                <h2>On the Day</h2>
+                <sub>Sub-text goes here</sub>
+                <p>More text here</p>
+            </div>
             <div className="about-øvre-edie text-center">
                 <h3>Øvre-eide Farm</h3>
                 <Image src={OvreEidePhoto} alt="Scenic view of the wedding venue" />
@@ -65,8 +71,6 @@ export const Details = () => {
                 <p>{location.address}</p>
                 <MapContainer />
                 <hr />
-            </div>
-            <div className="address text-center">
                 <h4>Transport</h4>
                 <p><b>Bus-stop</b>: Eidsvåg E39</p>
                 <p>Transport will be available from the city-centre on the date.</p>

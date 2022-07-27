@@ -78,7 +78,7 @@ sub {
 h2 {
   font-size: $font-size-h2;
   font-weight: $light;
-  color: $h2-color;
+  color: inherit;
   font-family: $serif;
 }
 
@@ -99,7 +99,7 @@ h4 {
 
 h5 {
   font-size: $font-size-h5;
-  color: $h5-color;
+  color: inherit;
   text-transform: uppercase;
   font-weight: $semibold;
 }

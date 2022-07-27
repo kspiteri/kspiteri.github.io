@@ -1,7 +1,5 @@
 // Google Fonts
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
-@import url(https://fonts.googleapis.com/css2?family=Satisfy&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Open+Sans:wght@300;400;600;700;800&family=Satisfy&display=swap);
 
 // Imports
 @import "partials/typography";
@@ -9,7 +7,6 @@
 @import "partials/colors";
 @import "partials/layout";
 @import "partials/global";
-@import "partials/anim";
 @import "components/navigation";
 @import "components/maps";
 @import "components/auth";
