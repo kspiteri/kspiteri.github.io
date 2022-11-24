@@ -221,8 +221,8 @@ main {
   background-size: 120px;
 }
 .section-padding.dark {
-  color: #a1a1a1;
-  background: #313021 url("../assets/floral-bg-light.webp") repeat-x;
+  color: #d5d5d5;
+  background: #445839 url("../assets/floral-bg-light.webp") repeat-x;
   background-size: 120px;
 }
 .section-padding.no-bottom-padding {
@@ -231,6 +231,13 @@ main {
 
 .text-center {
   text-align: center;
+}
+
+ul.list {
+  margin: 16px 32px;
+}
+ul.list li {
+  padding-bottom: 8px;
 }
 
 /* ==========================================================================
@@ -354,16 +361,14 @@ header .header-nav ul li .scroll-to {
   font-size: 13px;
   text-transform: uppercase;
   padding: 8px 0 8px 8px;
-  margin: 0 0 0 24px;
+  margin-left: 24px;
   user-select: none;
+  /*@media (max-width: 560px) {
+    margin: 0;
+  }*/
 }
 header .header-nav ul li .scroll-to:hover {
   color: #e3af0b;
-}
-@media (max-width: 560px) {
-  header .header-nav ul li .scroll-to {
-    margin: 0;
-  }
 }
 @media (max-width: 435px) {
   header .header-nav .btn-small {

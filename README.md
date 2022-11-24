@@ -8,6 +8,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm deploy`
+
+Deploy Build to Github pages
+
 ### `npm start`
 
 Runs the app in the development mode.\
